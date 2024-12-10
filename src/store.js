@@ -12,10 +12,9 @@ const reducer = (state = initialState, action) => {
         return { ...state, user: action.payload };
   
         case 'LOGOUT':
-          return { ...state, user: null, notes: [] }; // Обнуляем данные о пользователе и заметках
+          return { ...state, user: null, notes: [] };
   
       case "SET_NOTES":
-        // Проверяем, что payload — это массив заметок
         return {
           ...state,
           notes: Array.isArray(action.payload) ? action.payload : [],
@@ -35,7 +34,7 @@ const reducer = (state = initialState, action) => {
           ),
         };
 
-        case "ADD_NOTE": // Новый case для добавления заметки
+        case "ADD_NOTE":
         return {
           ...state,
           notes: [...state.notes, action.payload],
@@ -54,7 +53,6 @@ const store = createStore(
   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 );
 
-// Сохраняем состояние при каждом изменении
 store.subscribe(() => {
   saveState(store.getState());
 });
