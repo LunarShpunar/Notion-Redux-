@@ -1,0 +1,97 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "test@example.com",
+      "password": "Password123",
+      "createdAt": 1700313547023
+    },
+    {
+      "id": "1732306042766",
+      "email": "neob180@gmail.com",
+      "password": "7783926zZ",
+      "confirmPassword": "7783926zZ",
+      "createdAt": "2024-11-22T20:07:22.766Z"
+    },
+    {
+      "id": 1733608341516,
+      "email": "neob18210@gmail.com",
+      "password": "7783926zZ",
+      "confirmPassword": "7783926zZ",
+      "createdAt": "2024-12-07T21:52:21.516Z"
+    },
+    {
+      "id": 1733608693613,
+      "email": "mmf.kuklanofreferfv@bsu.by",
+      "password": "7783926zZ",
+      "confirmPassword": "7783926zZ",
+      "createdAt": "2024-12-07T21:58:13.613Z"
+    }
+  ],
+  "notes": [
+    {
+      "id": "1821",
+      "title": "vdfvfd",
+      "body": "dvfdfvdfvdfvdfvfd",
+      "authorId": "1",
+      "createdAt": 1732306689989
+    },
+    {
+      "id": "e151",
+      "title": "freferf",
+      "body": "erferferferferfr",
+      "authorId": "1",
+      "createdAt": 1732306711817
+    },
+    {
+      "id": "fa2c",
+      "title": "fwer",
+      "body": "fwe",
+      "authorId": "1",
+      "createdAt": 1732307895097
+    },
+    {
+      "id": "a0ac",
+      "title": "уцауауц",
+      "body": "",
+      "authorId": "1732290526417",
+      "createdAt": 1732322658098
+    },
+    {
+      "id": "4e87",
+      "title": "ауцацуац",
+      "body": "",
+      "authorId": "1732290526417",
+      "createdAt": 1732322667771
+    },
+    {
+      "id": "a507",
+      "title": "rwegjoeirgjerjerjogijeroigjerog",
+      "body": "",
+      "authorId": "1732290526417",
+      "createdAt": 1732322999290
+    },
+    {
+      "id": "2d08",
+      "title": "бькулпокущшмоукщшощукшомшщукмщшукомщшукомщшукомщшукомщшуомшщоукшщмоукшщмоущшмоукшщщмоукщшмоушщкмощушмощушм",
+      "body": "",
+      "authorId": "1732290526417",
+      "createdAt": 1732324432112
+    },
+    {
+      "id": "cb36",
+      "title": "ацу",
+      "body": "",
+      "authorId": "1732290526417",
+      "createdAt": 1732325250701
+    },
+    {
+      "id": "d7ec",
+      "title": "rfererdfddddddd",
+      "body": "erreeeeddd",
+      "authorId": 1733608341516,
+      "createdAt": 1733609704123,
+      "updatedAt": 1733609710903
+    }
+  ]
+}
